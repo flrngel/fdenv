@@ -8,8 +8,8 @@ program
   .usage("[options]")
   .option("-p, --prefix <string>")
   .option("-s, --suffix <string>")
-  .option("-j, --joins <string>")
-  .option("-f, --filepath <string>", 'set env path. defaults to .env', '.env')
+  .option("-j, --joins <string>", "set string joins each environments. defaults to \" \"", " ")
+  .option("-f, --filepath <string>", "set env path. defaults to .env", ".env")
   .parse(process.argv);
 
 var dotenv = require("dotenv").config({path: program.filepath, returns: "Object"})
