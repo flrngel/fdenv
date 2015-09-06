@@ -4,7 +4,7 @@ print dotenv environmetns with format
 
 ## Installation
 
-`npm install fdenv`
+`npm install -g fdenv`
 
 ## Usage
 
