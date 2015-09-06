@@ -19,7 +19,10 @@ $ fdenv --help
     -V, --version            output the version number
     -p, --prefix <string>    
     -s, --suffix <string>    
-    -j, --joins <string>     
+    -j, --joins <string>     set string joins each environments. defaults to " "
     -f, --filepath <string>  set env path. defaults to .env
-
 ```
+
+## Example
+
+`docker run $(fdenv -p "-g ") helloworld`
