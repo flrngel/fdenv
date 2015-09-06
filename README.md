@@ -25,4 +25,4 @@ $ fdenv --help
 
 ## Example
 
-`docker run $(fdenv -p "-g ") helloworld`
+`docker run $(fdenv -p "-e ") helloworld`
