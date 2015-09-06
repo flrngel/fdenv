@@ -1,0 +1,16 @@
+{
+  "name": "fdenv",
+  "version": "1.0.0",
+  "description": "print dotenv with formatrint dotenv with format",
+  "main": "index",
+  "bin": {
+    "fdenv": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "dotenv": "git+https://github.com/flrngel/dotenv.git",
+    "underscore": "^1.8.3"
+  }
+}
